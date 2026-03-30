@@ -53,28 +53,19 @@ Conjunto de utilidades en Bash, C++ y Python para administración de sistemas.
 
 ## Visualización Técnica
 
-## Visualización Técnica
-
-### Métricas de Actividad
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hugonofre7&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hugonofre7&layout=compact&theme=dark&hide_border=true" />
-</div>
-
-<br />
+### Enfoque por Repositorios
 
 <div align="center">
   
-| Enfoque Principal | Repositorios Activos |
-|-------------------|---------------------|
-| **C++** – Sistemas de bajo nivel, asignadores de memoria | `slab-allocator` |
-| **Node.js** – APIs geoespaciales, toolkits de infraestructura | `epidemiological-surveillance` |
-| **Python/Bash** – Observabilidad, automatización de sistemas | `linux-toolkits` |
+| Enfoque Principal | Repositorios Activos | Tecnologías Clave |
+|-------------------|---------------------|-------------------|
+| **Sistemas de bajo nivel** | `slab-allocator` | C++17, RAII, gestión manual de memoria |
+| **APIs geoespaciales** | `epidemiological-surveillance` | Node.js, MySQL, PostGIS, índices espaciales |
+| **Observabilidad y Automatización** | `linux-toolkits` | Python, Bash, C++, métricas JSON |
 
 </div>
 
-*Las métricas reflejan desarrollo continuo en C++, Node.js y toolkits de infraestructura.*
+*El desarrollo se organiza por dominios técnicos, con énfasis en reproducibilidad y documentación de benchmarks.*
 
 ---
 
