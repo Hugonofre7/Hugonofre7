@@ -36,9 +36,8 @@ Lidero el diseño e implementación de un sistema de monitoreo en tiempo real pa
 
 ---
 
-## Estadísticas
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Hugonofre7&layout=compact&theme=dark&hide_border=true)
+## Métricas de Desarrollo
+*Repositorios públicos en evolución: seguimiento de avances en C++, sistemas distribuidos y toolkits para Linux.*
 
 ---
 
