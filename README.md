@@ -33,7 +33,7 @@ Lidero el diseño e implementación de un sistema de monitoreo en tiempo real pa
 Implementación de un asignador de memoria tipo *slab* para escenarios de alta concurrencia, aplicando RAII, gestión manual de memoria y optimización de fragmentación.  
 *Benchmarks internos muestran reducción del 40% en overhead comparado con malloc.*
 
-### Linux Toolkits  
+### Linux. 
 Conjunto de utilidades en Bash, C++ y Python para administración de sistemas.  
 **Observability:** Módulos en Python que recolectan métricas de procesos, latencia de I/O y análisis de logs con rotación automática.  
 **Automation:** Scripts para provisioning idempotente de servidores Ubuntu y backups diferenciales.
@@ -60,6 +60,18 @@ Conjunto de utilidades en Bash, C++ y Python para administración de sistemas.
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hugonofre7&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hugonofre7&layout=compact&theme=dark&hide_border=true" />
+</div>
+
+<br />
+
+<div align="center">
+  
+| Enfoque Principal | Repositorios Activos |
+|-------------------|---------------------|
+| **C++** – Sistemas de bajo nivel, asignadores de memoria | `slab-allocator` |
+| **Node.js** – APIs geoespaciales, toolkits de infraestructura | `epidemiological-surveillance` |
+| **Python/Bash** – Observabilidad, automatización de sistemas | `linux-toolkits` |
+
 </div>
 
 *Las métricas reflejan desarrollo continuo en C++, Node.js y toolkits de infraestructura.*
