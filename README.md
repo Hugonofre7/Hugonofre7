@@ -36,11 +36,15 @@ Lidero el diseño e implementación de un sistema de monitoreo en tiempo real pa
 
 ---
 
-## Explorar Código
-Consulta mis repositorios públicos para ver implementaciones detalladas de:
-- **Slab Allocator** (C++ bajo nivel)
-- **Linux Toolkits** (Bash + C++)
-- **Sistema de Vigilancia Geoespacial** (Node.js + MySQL)
+## Stack Técnico en Acción
+
+| Área                | Tecnologías                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------|
+| Lenguajes base      | ![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus) ![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=nodedotjs) ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) |
+| Infraestructura     | ![Linux](https://img.shields.io/badge/Linux-Ubuntu%20Server-FCC624?logo=linux) ![Docker](https://img.shields.io/badge/Docker-24-blue?logo=docker) |
+| Datos geoespaciales | ![MySQL](https://img.shields.io/badge/MySQL-8-orange?logo=mysql) ![PostGIS](https://img.shields.io/badge/PostGIS-3-green?logo=postgresql) |
+
+Para ver implementaciones concretas, explora mis [repositorios públicos](https://github.com/Hugonofre7?tab=repositories).
 
 ---
 
