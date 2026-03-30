@@ -53,15 +53,27 @@ Conjunto de utilidades en Bash, C++ y Python para administración de sistemas.
 
 ## Visualización Técnica
 
+## Visualización Técnica
+
 ### Métricas de Actividad
-*El desarrollo es continuo y orientado a la reproducibilidad.*
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hugonofre7&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Hugonofre7&layout=compact&theme=dark&hide_border=true)
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hugonofre7&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hugonofre7&layout=compact&theme=dark&hide_border=true" />
+</div>
 
-### Diagrama de Referencia – Sistema de Vigilancia
-Flujo de datos: `[Clínica rural] → [API Gateway Node.js] → [Procesamiento espacial PostGIS] → [Agregación de conglomerados] → [Dashboard epidemiológico]`.  
-*Diagrama completo disponible en el [repositorio del proyecto](https://github.com/Hugonofre7/epidemiological-surveillance).*
+*Las métricas reflejan desarrollo continuo en C++, Node.js y toolkits de infraestructura.*
+
+---
+
+### Arquitectura – Sistema de Vigilancia Epidemiológica
+
+*Componentes clave:*
+- **Ingesta asíncrona** con reinteligencia para zonas de baja conectividad
+- **Índices espaciales (R-tree)** para consultas de proximidad en tiempo real
+- **Particionamiento horizontal** por región epidemiológica
+
+*Diagrama técnico detallado disponible en el [repositorio del proyecto](https://github.com/Hugonofre7/epidemiological-surveillance).*
 
 ---
 
