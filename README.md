@@ -1,4 +1,4 @@
-## Hi there 👋
+
 # Hugo Onofre  
 **Platform Engineering & Distributed Systems**  
 *Ingeniero de Sistemas con enfoque en infraestructura crítica, sistemas distribuidos y gestión de operaciones.*
@@ -36,8 +36,11 @@ Lidero el diseño e implementación de un sistema de monitoreo en tiempo real pa
 
 ---
 
-## Métricas de Desarrollo
-*Repositorios públicos en evolución: seguimiento de avances en C++, sistemas distribuidos y toolkits para Linux.*
+## Explorar Código
+Consulta mis repositorios públicos para ver implementaciones detalladas de:
+- **Slab Allocator** (C++ bajo nivel)
+- **Linux Toolkits** (Bash + C++)
+- **Sistema de Vigilancia Geoespacial** (Node.js + MySQL)
 
 ---
 
