@@ -53,7 +53,15 @@ Para ver implementaciones concretas, explora mis [repositorios públicos](https:
 Mi experiencia en gestión de operaciones me permite traducir necesidades de negocio en arquitecturas robustas, mientras que mi práctica constante en C++ y Linux asegura que puedo descender al nivel de sistema cuando la confiabilidad lo exige.
 
 ---
+## Gobernanza de Código Abierto
 
+Todo el código público en mi perfil se publica bajo licencias que fomentan la colaboración y la adopción industrial:
+
+- **Apache 2.0** – para proyectos de infraestructura crítica y componentes reutilizables (Slab Allocator, Linux Toolkits).
+- **MIT** – para utilidades, scripts de automatización y prototipos.
+
+Cada repositorio incluye su archivo `LICENSE` correspondiente.  
+*La elección de licencia sigue criterios de compatibilidad con ecosistemas empresariales y comunitarios.*
 *Perfil en construcción – próximos repositorios: controlador de dispositivos en Linux y simulador de partición distribuida.*
 <!--
 **Hugonofre7/Hugonofre7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
