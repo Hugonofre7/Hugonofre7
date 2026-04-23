@@ -1,100 +1,62 @@
+# Hugo Onofre
+**Systems Software Engineering • Distributed Systems • Architecture**
 
-# Hugo Onofre  
-**Platform Engineering & Distributed Systems**  
-*Ingeniero de Sistemas con enfoque en infraestructura crítica, sistemas distribuidos y gestión de operaciones.*
-
----
-
-## Core Stack
-
-| Categoría       | Tecnologías                                                                                     |
-|-----------------|-------------------------------------------------------------------------------------------------|
-| **Lenguajes**   | ![C++](https://img.shields.io/badge/C++-17-blue?logo=cplusplus) ![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=nodedotjs) ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) |
-| **Infraestructura** | ![Linux](https://img.shields.io/badge/Linux-Ubuntu%20Server-FCC624?logo=linux) ![Docker](https://img.shields.io/badge/Docker-24-blue?logo=docker) ![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnubash) |
-| **Data & Geoespacial** | ![MySQL](https://img.shields.io/badge/MySQL-8-orange?logo=mysql) ![PostGIS](https://img.shields.io/badge/PostGIS-3-green?logo=postgresql) |
-| **Plataforma**  | ![Kubernetes](https://img.shields.io/badge/K8s-1.28-blue?logo=kubernetes) ![Terraform](https://img.shields.io/badge/Terraform-1.5-purple?logo=terraform) |
+Systems Engineer specializing in the design of software infrastructure for critical environments (Public Health & Logistics). My focus lies in the intersection of low-level system performance and the scalability of distributed architectures.
 
 ---
 
-## Current Mission  
-**Arquitectura de vigilancia epidemiológica distribuida – Secretaría de Salud (México)**  
-Lidero el diseño e implementación de un sistema de monitoreo en tiempo real para malaria, basado en una arquitectura geoespacial con MySQL y servicios de localización.
+## 🛠 Tech Stack & Engineering Focus
 
-**Automation:** Pipelines Bash + Node.js para ingesta desde zonas rurales con conectividad intermitente (rsync + validación checksum).  
-**Scalability:** Particionamiento horizontal de tablas MySQL por región epidemiológica; índices espaciales (R-tree) para consultas en datasets >1M registros.  
-**Impacto:** Reducción del 30% en latencia de consolidación de datos y mejora en capacidad de respuesta operativa.
-
----
-
-## Engineering Labs  
-*Exploración profunda de sistemas y bajo nivel*
-
-### Slab Allocator en C++  
-Implementación de un asignador de memoria tipo *slab* para escenarios de alta concurrencia, aplicando RAII, gestión manual de memoria y optimización de fragmentación.  
-*Benchmarks internos muestran reducción del 40% en overhead comparado con malloc.*
-
-### Linux. 
-Conjunto de utilidades en Bash, C++ y Python para administración de sistemas.  
-**Observability:** Módulos en Python que recolectan métricas de procesos, latencia de I/O y análisis de logs con rotación automática.  
-**Automation:** Scripts para provisioning idempotente de servidores Ubuntu y backups diferenciales.
+| Domain | Technologies & Concepts |
+| :--- | :--- |
+| **Systems Programming** | ![C++](https://img.shields.io/badge/C++-17/20-blue?logo=cplusplus) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white) |
+| **Distributed Systems** | Gossip Protocols, Node Discovery, Concurrency Models, RPC |
+| **Data Architecture** | MySQL (Horizontal Partitioning), PostGIS, R-Tree Indexing, Bloom Filters |
+| **Operating Systems** | Linux Kernel Internals, Memory Management (RAII), POSIX Threads |
 
 ---
 
-## Platform Engineering en Práctica
+## 🏗 Featured Projects
 
-| Principio | Implementación |
-|-----------|----------------|
-| **Observability** | Scripts Python con exportación de métricas JSON; seguimiento de latencia en operaciones geoespaciales. |
-| **Automation** | Pipelines Bash + Node.js para despliegue continuo y orquestación de backups. |
-| **Scalability** | Particionamiento horizontal de MySQL + índices espaciales para consultas eficientes. |
-| **Infraestructura como Código** | Definición de entornos con Docker Compose y scripts idempotentes. |
+### [core-sys-cxx](https://github.com/Hugonofre7/core-sys-cxx) 
+*Research and implementation of low-level systems components in C++.*
+- **Slab Allocator:** Custom memory manager designed to minimize fragmentation and allocation overhead.
+- **Work-Stealing Scheduler:** Multi-threaded execution engine focused on CPU efficiency and synchronization.
+- **Net-Cluster Discovery:** P2P node detection using a decentralized Gossip protocol.
+- **Data Stream Filters:** High-performance Bloom Filters for optimized membership queries.
+
+### [epidemiological-surveillance](https://github.com/Hugonofre7/epidemiological-surveillance)
+*Distributed Geospatial Architecture for Real-Time Risk Assessment.*
+- **Database Design:** Implementing horizontal partitioning strategies in MySQL to handle high-volume regional datasets.
+- **Spatial Optimization:** Utilizing R-Tree indexing for efficient real-time proximity queries in malaria surveillance.
+- **Resilience:** Designed for eventual consistency in environments with intermittent network connectivity (Offline-First approach).
+
+### [go-distributed-kv](https://github.com/Hugonofre7/go-distributed-kv) (Work in Progress)
+*Experimental Fault-Tolerant Distributed Key-Value Store.*
+- Focus on implementing basic consensus logic and network serialization.
+- Exploration of the CAP theorem tradeoffs in distributed storage.
 
 ---
 
-## Visualización Técnica
+## 🎯 Professional Vision & Academic Path
 
-### Enfoque por Repositorios
+Currently completing my second degree in Systems Engineering. My professional path is focused on mastering the complexities of **Cloud Computing and Distributed Systems**. I am dedicated to bridging the gap between hardware constraints and large-scale software reliability.
+
+> **Research Interests:** High-performance computing, distributed consensus algorithms, and the optimization of systems-level software in C++ and Go.
+
+---
+
+## 📊 Technical Philosophy
+
+- **Mechanical Sympathy:** Developing software with a deep understanding of the underlying hardware and OS kernel.
+- **RAII & Safety:** Prioritizing deterministic resource management to ensure system stability under heavy loads.
+- **Design over Tooling:** Focusing on architectural principles (Scalability, Partitioning, Consistency) rather than just tool-specific administration.
+
+---
 
 <div align="center">
-  
-| Enfoque Principal | Repositorios Activos | Tecnologías Clave |
-|-------------------|---------------------|-------------------|
-| **Sistemas de bajo nivel** | `slab-allocator` | C++17, RAII, gestión manual de memoria |
-| **APIs geoespaciales** | `epidemiological-surveillance` | Node.js, MySQL, PostGIS, índices espaciales |
-| **Observabilidad y Automatización** | `linux-toolkits` | Python, Bash, C++, métricas JSON |
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Hugonofre7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Hugo's GitHub Stats" />
 </div>
 
-*El desarrollo se organiza por dominios técnicos, con énfasis en reproducibilidad y documentación de benchmarks.*
-
 ---
-
-### Arquitectura – Sistema de Vigilancia Epidemiológica
-
-*Componentes clave:*
-- **Ingesta asíncrona** con reinteligencia para zonas de baja conectividad
-- **Índices espaciales (R-tree)** para consultas de proximidad en tiempo real
-- **Particionamiento horizontal** por región epidemiológica
-
-*Diagrama técnico detallado disponible en el [repositorio del proyecto](https://github.com/Hugonofre7/epidemiological-surveillance).*
-
----
-
-## Gobernanza de Código Abierto
-
-Todo el código público en mi perfil se publica bajo licencias que fomentan la colaboración y la adopción industrial:
-
-- **Apache 2.0** – para proyectos de infraestructura crítica (Slab Allocator, Linux Toolkits).
-- **MIT** – para utilidades, scripts de automatización y prototipos.
-
-Cada repositorio incluye su archivo `LICENSE` correspondiente.
-
----
-
-## Filosofía Técnica  
-*“Big picture con raíces en el kernel.”*  
-Mi experiencia en gestión de operaciones me permite traducir necesidades de negocio en arquitecturas robustas, mientras que mi práctica constante en C++ y Linux asegura que puedo descender al nivel de sistema cuando la confiabilidad lo exige.
-
----
-
-*Perfil en construcción – próximos repositorios: controlador de dispositivos en Linux y simulador de partición distribuida.*
+*Last updated: April 2026. Transitioning from infrastructure operations to systems software research.*
