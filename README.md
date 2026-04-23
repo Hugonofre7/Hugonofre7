@@ -31,6 +31,13 @@ Systems Engineer specializing in the design of software infrastructure for criti
 - **Spatial Optimization:** Utilizing R-Tree indexing for efficient real-time proximity queries in malaria surveillance.
 - **Resilience:** Designed for eventual consistency in environments with intermittent network connectivity (Offline-First approach).
 
+### [Projects-python](https://github.com/Hugonofre7/Projects-python)
+*Systems Automation and Data Processing Toolkits.*
+- **Log Cleaner & Masker:** Regex-based utility for sanitizing and obfuscating sensitive data (IPs, emails) in massive system logs.
+- **Service Health Simulator:** Modeling cascading failures and service states using nested data structures and real-time feedback.
+- **CLI Engineering:** Developing professional command-line interfaces with `argparse` for system administration tasks.
+- **API Status Checker:** Robust monitoring tool for checking endpoint health and parsing JSON responses with error handling.
+
 ### [go-distributed-kv](https://github.com/Hugonofre7/go-distributed-kv) (Work in Progress)
 *Experimental Fault-Tolerant Distributed Key-Value Store.*
 - Focus on implementing basic consensus logic and network serialization.
@@ -54,8 +61,12 @@ Currently completing my second degree in Systems Engineering. My professional pa
 
 ---
 
+---
+
+## 📊 Technical Activity
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hugonofre7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Hugo's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hugonofre7&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" alt="Most Used Languages" />
 </div>
 
 ---
