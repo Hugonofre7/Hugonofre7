@@ -31,6 +31,12 @@ Systems Engineer specializing in the design of software infrastructure for criti
 - **Spatial Optimization:** Utilizing R-Tree indexing for efficient real-time proximity queries in malaria surveillance.
 - **Resilience:** Designed for eventual consistency in environments with intermittent network connectivity (Offline-First approach).
 
+### [linux-workstation](https://github.com/Hugonofre7/linux-workstation)
+*Dev Environment as Code & System Configuration.*
+- **System Provisioning:** Idempotent scripts for configuring Linux environments (Ubuntu Server/Desktop) focusing on performance tuning and terminal-based workflows.
+- **Kernel & Tools:** Management of custom kernel installations, server hardening, and CLI toolchains for systems development.
+- **Automation:** Bash-based routines for automated backups, directory structure enforcement, and environment consistency.
+
 ### [Projects-python](https://github.com/Hugonofre7/Projects-python)
 *Systems Automation and Data Processing Toolkits.*
 - **Log Cleaner & Masker:** Regex-based utility for sanitizing and obfuscating sensitive data (IPs, emails) in massive system logs.
@@ -38,6 +44,12 @@ Systems Engineer specializing in the design of software infrastructure for criti
 - **CLI Engineering:** Developing professional command-line interfaces with `argparse` for system administration tasks.
 - **API Status Checker:** Robust monitoring tool for checking endpoint health and parsing JSON responses with error handling.
 
+### [Projects-javascript](https://github.com/Hugonofre7/Projects-javascript)
+*Core Logic and API Services.*
+- **Backend Services:** Implementation of server-side logic using Node.js for data processing and system integration.
+- **Asynchronous Patterns:** Handling concurrent operations and event-driven architectures in micro-tooling.
+- **Protocol Integration:** Managing communication between web-based interfaces and system APIs.
+  
 ### [go-distributed-kv](https://github.com/Hugonofre7/go-distributed-kv) (Work in Progress)
 *Experimental Fault-Tolerant Distributed Key-Value Store.*
 - Focus on implementing basic consensus logic and network serialization.
