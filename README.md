@@ -1,5 +1,6 @@
 # Hugo Onofre
-**Systems Software Engineering • Distributed Systems • Architecture**
+**System & Software Engineering**  
+*Systems Programming • Distributed Systems • Production-Grade Architecture*
 
 Systems Engineer specializing in the design of software infrastructure for critical environments (Public Health & Logistics). My focus lies in the intersection of low-level system performance and the scalability of distributed architectures.
 
